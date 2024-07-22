@@ -1,7 +1,9 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
-  { name = "hello", path = "exercises/hello.rs" },
-  { name = "hello_sol", path = "solutions/hello.rs" },
+  { name = "tensor", path = "exercises/0_mnist/tensor.rs" },
+  { name = "tensor_sol", path = "solutions/0_mnist/tensor.rs" },
+  { name = "model", path = "exercises/0_mnist/model.rs" },
+  { name = "model_sol", path = "solutions/0_mnist/model.rs" },
 ]
 
 [package]
