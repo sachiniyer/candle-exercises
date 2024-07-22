@@ -1,0 +1,11 @@
+1. Basic mnist model
+   1. Create a tensor
+   2. Create a basic model
+   3. Create a dataloader (store a dataset for this)
+   4. Train the model
+   5. Infer the model
+2. Use integrated models
+   1. Use hf-hub to get a model
+   2. Do an inference example with Llama
+3. Use a simple optimizer
+   1. Add an optimizer to the mnist model
