@@ -1,5 +1,8 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
-bin = []
+bin = [
+  { name = "hello", path = "exercises/hello.rs" },
+  { name = "hello_sol", path = "solutions/hello.rs" },
+]
 
 [package]
 name = "exercises"
@@ -8,3 +11,4 @@ edition = "2021"
 publish = false
 
 [dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
