@@ -4,6 +4,8 @@ bin = [
   { name = "tensor_sol", path = "solutions/0_mnist/tensor.rs" },
   { name = "model", path = "exercises/0_mnist/model.rs" },
   { name = "model_sol", path = "solutions/0_mnist/model.rs" },
+  { name = "dataloader", path = "exercises/0_mnist/dataloader.rs" },
+  { name = "dataloader_sol", path = "solutions/0_mnist/dataloader.rs" },
 ]
 
 [package]
@@ -14,3 +16,5 @@ publish = false
 
 [dependencies]
 candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
+candle-datasets = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
+csv = "1.3.0"

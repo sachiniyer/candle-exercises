@@ -42,5 +42,10 @@ dir = "0_mnist"
 
 [[exercises]]
 name = "model"
-hint = "docs - https://docs.rs/candle-core/latest/candle_core/struct.Tensor.html"
+hint = "docs"
+dir = "0_mnist"
+
+[[exercises]]
+name = "dataloader"
+hint = "docs"
 dir = "0_mnist"
