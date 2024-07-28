@@ -1,7 +1,5 @@
-# Rustlings 🦀
+# Candle Exercises
 
-Welcome to these third-party Rustlings exercises 😃
+_IN PROGRESS_
 
-First, [install Rustlings using the official instructions](https://github.com/rust-lang/rustlings) ✅
-
-Then, clone this repository, open a terminal in this directory and run `rustlings` to get started with the exercises 🚀
+A set of rustling style exercises to learn the candle framework.
